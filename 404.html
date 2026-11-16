@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>RunRadar</title>
-  <!-- Cualquier dirección mal escrita (p. ej. /RunRadar o /runradar/algo) lleva a la app -->
-  <script>location.replace("/runradar/" + location.hash);</script>
+  <!-- RunRadar se ha mudado: cualquier dirección antigua (p. ej. /runradar/) lleva a la nueva,
+       conservando lo que va tras "#" (enlaces de cambio de contraseña). -->
+  <script>location.replace("https://runradar-madrid.github.io/" + location.hash);</script>
   <style>body{font-family:system-ui,sans-serif;background:#f6f5f1;color:#1a1a18;display:grid;place-items:center;min-height:100vh;margin:0}a{color:#1f5bff}</style>
 </head>
 <body>
-  <p>Abriendo RunRadar… <a href="/runradar/">Pulsa aquí si no se abre</a></p>
+  <p>RunRadar se ha mudado. <a href="https://runradar-madrid.github.io/">Ir a runradar-madrid.github.io</a></p>
 </body>
 </html>
